@@ -1,0 +1,14 @@
+{
+  "name": "keep-rollin",
+  "description": "gettin that webcam stream with getUserMedia",
+  "version": "0.0.1",
+  "repository": "github.com:Ramshackle-Jamathon/gl-flyCamera.git",
+  "author": "Joseph Van Drunen <josephvandrunen@gmail.com>",
+  "keywords": [
+    "getUserMedia",
+    "webcam"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {}
+}
