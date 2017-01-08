@@ -10,7 +10,7 @@ var webcam = function(opts){
 	this.minFrameRate = opts.minFrameRate || 60;
 }
 
-webcam.prototype.getUserMedia = navigator.getUserMedia ||
+navigator.getUserMedia = navigator.getUserMedia ||
 	navigator.webkitGetUserMedia ||
 	navigator.mozGetUserMedia ||
 	navigator.msGetUserMedia;
@@ -44,7 +44,7 @@ webcam.prototype.sourceSelected = function(){
 		};
 	}
 
-	this.getUserMedia(constraints,(stream) => {
+	navigator.getUserMedia(constraints,(stream) => {
 		this.handleUserMedia(null, stream);
 	}, (e) => {
 		this.handleUserMedia(e);
