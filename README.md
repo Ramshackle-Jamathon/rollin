@@ -11,11 +11,7 @@ $ npm install keep-rollin
 ```javascript
 var Webcam = require("keep-rollin");
 
-var webcam = new Webcam({
-	minWidth: 1920, // default: 1280
-	minHeight: 1080, // default: 720
-	minFrameRate: 30, // default: 60
-});
+var webcam = new Webcam();
 
 var webcamTexture;
 function renderLoop(){
