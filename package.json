@@ -1,7 +1,7 @@
 {
   "name": "keep-rollin",
   "description": "gettin that webcam stream with getUserMedia",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "github.com:Ramshackle-Jamathon/rollin.git"
