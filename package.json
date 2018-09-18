@@ -2,7 +2,14 @@
   "name": "keep-rollin",
   "description": "gettin that webcam stream with getUserMedia",
   "version": "0.0.3",
-  "repository": "github.com:Ramshackle-Jamathon/gl-flyCamera.git",
+  "repository": {
+    "type": "git",
+    "url": "github.com:Ramshackle-Jamathon/rollin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ramshackle-Jamathon/rollin/issues"
+  },
+  "homepage": "https://github.com/Ramshackle-Jamathon/rollin",
   "author": "Joseph Van Drunen <josephvandrunen@gmail.com>",
   "keywords": [
     "getUserMedia",
